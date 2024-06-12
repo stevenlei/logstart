@@ -1,7 +1,7 @@
 {
   "name": "logrequest",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple web server that logs all requests in detail to the console or a file",
   "main": "server.js",
   "scripts": {
     "logrequest": "node server.js"
@@ -10,8 +10,12 @@
     "logrequest": "./server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Steven Lei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenlei/logrequest.git"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "express": "^4.19.2",
