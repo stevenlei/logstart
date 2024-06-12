@@ -2,6 +2,12 @@
 
 **logstart** is a simple web server that logs all requests in detail to the console or a file. This includes the HTTP method, request path, headers, parameters, request payload, IP address, and timestamp.
 
+## Background
+
+When integrating with external systems such as payment gateways, it is often crucial to understand the actual data structure of their callbacks. Although it is relatively easy to set up our own web application to catch the response, there are scenarios where we don't have our web application deployed yet but need to start writing the backend code and want a quick way to fire up a server.
+
+In such cases, running `npx logstart` can be a quick and easy way to start a server that logs all incoming requests.
+
 ## Features
 
 - Logs detailed request information:
