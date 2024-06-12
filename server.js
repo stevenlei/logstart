@@ -117,7 +117,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/", (req, res) => {
+app.get("*", (req, res) => {
   try {
     res.json(JSON.parse(argv.response));
   } catch (error) {
