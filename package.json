@@ -1,20 +1,20 @@
 {
-  "name": "logrequest",
+  "name": "logstart",
   "version": "1.0.0",
   "description": "A simple web server that logs all requests in detail to the console or a file",
   "main": "server.js",
   "scripts": {
-    "logrequest": "node server.js"
+    "logstart": "node server.js"
   },
   "bin": {
-    "logrequest": "./server.js"
+    "logstart": "./server.js"
   },
   "keywords": [],
   "author": "Steven Lei",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenlei/logrequest.git"
+    "url": "https://github.com/stevenlei/logstart.git"
   },
   "dependencies": {
     "chalk": "^4.1.2",

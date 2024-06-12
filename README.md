@@ -1,6 +1,6 @@
-# logrequest
+# logstart
 
-**logrequest** is a simple web server that logs all requests in detail to the console or a file. This includes the HTTP method, request path, headers, parameters, request payload, IP address, and timestamp.
+**logstart** is a simple web server that logs all requests in detail to the console or a file. This includes the HTTP method, request path, headers, parameters, request payload, IP address, and timestamp.
 
 ## Features
 
@@ -23,7 +23,7 @@
 To start the server, simply run:
 
 ```bash
-npx logrequest
+npx logstart
 ```
 
 By default, the server will run on port `8999`. If this port is occupied, it will automatically increment the port number until it finds an available one.
@@ -39,25 +39,25 @@ By default, the server will run on port `8999`. If this port is occupied, it wil
 #### Start the Server with Default Settings
 
 ```bash
-npx logrequest
+npx logstart
 ```
 
 #### Save Logs to a File
 
 ```bash
-npx logrequest --output=logfile.txt
+npx logstart --output=logfile.txt
 ```
 
 #### Specify a Custom Port
 
 ```bash
-npx logrequest --port=8080
+npx logstart --port=8080
 ```
 
 #### Customize the Response Message
 
 ```bash
-npx logrequest --response='{"message": "Hello World"}'
+npx logstart --response='{"message": "Hello World"}'
 ```
 
 ### Example Output
